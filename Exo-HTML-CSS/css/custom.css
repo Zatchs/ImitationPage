@@ -1,0 +1,248 @@
+html{
+    height: 100%;
+}
+
+body{
+    position: relative;
+    background-color: white;
+    min-height: 100%;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    font-family: "Arvo";
+    text-align: center;
+}
+
+h2 {
+    color: #f74C3C;
+    padding-top: 50px;
+}
+
+
+
+
+/***************/
+/**** NAVBAR****/
+/***************/
+
+.nav{
+    width: 100%;
+    background-color: black;
+    text-align: center;
+    display: flex;
+    height: 40px;
+    line-height: 40px;
+}
+
+.nav li{
+    display: inline-block;
+    
+}
+
+
+.nav li a{
+    text-decoration: none;
+    color: rgb(220, 226, 243);
+    font-size: 1em;
+}
+
+.nav img{
+    width: 250px;
+    display: block;
+    height: 20px;
+    margin-top: 20px;
+
+}
+
+.one {
+    width: 60%;
+}
+.two {
+    text-transform: uppercase;
+    width: 40%;
+
+}
+.two li {
+    margin-right: 80px;
+    list-style: none;
+}
+
+
+/***************/
+/**** HOME****/
+/***************/
+
+#home {
+    height: 60vh;
+    background: url(../images/hero-image.jpg);
+    margin-top: -40px;
+}
+
+.titre {
+    text-align: center;
+    font-size: 2em;
+    color: white;
+}
+
+.titre h2 {
+    text-align: center;
+    color: white;
+}
+
+.soustitre {
+    text-align: center;
+    font-size: 1em;
+    color: white;
+
+}
+
+.bouton {
+    text-align: center;
+}
+
+.myButton {
+	box-shadow:inset 0px 0px 0px -24px #f74C3C;
+	background-color:#f74C3C;
+	border-radius:5px;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:1.2em;
+	font-weight:bold;
+	padding:0px 20px;
+	text-decoration:none;
+    text-shadow:0px 1px 0px #f74C3C;
+    margin: auto 0;
+    margin-bottom: 20px;
+}
+
+.myButton:hover {
+	background-color:#eb675e;
+}
+.myButton:active {
+	position:relative;
+	top:1px;
+}
+
+
+.code {
+    text-align: center;
+
+}
+
+/***************/
+/****  WHO ****/
+/***************/
+
+#who {
+    height: 40vh;
+    width: 100%;
+}
+
+.p2logo {
+    text-align: center;
+    margin-top: 80px;
+    color: #f74C3C;
+}
+
+hr {
+    display: flex;
+    width : 8%;
+    text-align: center;
+    justify-content: center;
+    color: #f74C3C;
+}
+
+.p2texte {
+    text-align: center;
+}
+
+/***************/
+/*GET-INVOLVED*/
+/***************/
+
+#get-involved {
+    height: 50vh;
+    width: 100%;
+    background-color: rgba(245, 241, 241, 0.877);
+}
+.p3titre {
+    text-align: center;
+    color: #f74C3C;
+}
+
+
+#colonne1 {
+	float: left;
+    width: 33%;
+    text-align: center;
+    z-index: 2;
+}
+#colonne2 {
+	float: right;
+    width: 33%;
+    text-align: center;
+}
+#centre {
+    text-align: center;
+}
+
+.fa-user {
+    border-radius: 50%;
+    border-color: black;
+    background: rgba(0, 0, 0, 0.76);
+    width: 10%;
+    color: white;
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
+
+.fa-money-bill-alt {
+    border-radius: 50%;
+    border-color: black;
+    background: rgba(0, 0, 0, 0.76);
+    width: 10%;
+    color: white;
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
+
+.fa-pencil-alt {
+    border-radius: 50%;
+    border-color: black;
+    background: rgba(0, 0, 0, 0.76);
+    width: 1.5em;
+    color: white;
+    padding-top: 0.25em;
+    padding-bottom: 0.25em;
+}
+#get-involved a {
+    color: #f74C3C;
+    background: white;
+    border-width: 1px;
+    border-radius: 8%;
+    border-style: solid;
+    border-color: rgba(0, 0, 0, 0.692);
+    padding: 10px;
+    text-decoration: none;
+    font-size: 0.7em;
+    padding: 5px;
+}
+
+
+/***************/
+/*** FOOTER ****/
+/***************/
+
+.footer {
+    height: 25vh;
+    background-color: #f74C3C
+}
+
+.footer img {
+    float: left;
+    margin-top: 150px;
+    margin-left: 250px;
+}
+
