@@ -76,7 +76,6 @@ ul nav{
 @media (max-width:991px) {
 
     .nav li a{
-        text-decoration: none;
         color: rgb(220, 226, 243);
         font-size: 0.8em;
     }
@@ -88,11 +87,11 @@ ul nav{
     }
     .nav{
         width: 100%;
-        background-color: black;
-        text-align: center;
-        display: flex;
         height: 60px;
         line-height: 40px;
+    }
+    .two li {
+        margin-right: 0px;
     }
 
 }
