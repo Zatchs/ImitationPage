@@ -41,7 +41,7 @@ ul nav{
 
 .nav li{
     display: inline-block;
-
+    
 }
 
 
@@ -73,17 +73,17 @@ ul nav{
 }
 
 @media (max-width:991px) {
-
+     
     .nav li a{
         text-decoration: none;
         color: rgb(220, 226, 243);
         font-size: 0.8em;
     }
-
+    
     .nav img{
         width: 100px;
         height: 10px;
-
+    
     }
     .nav{
         width: 100%;
@@ -97,6 +97,7 @@ ul nav{
 }
 
 
+
 /***************/
 /**** HOME****/
 /***************/
@@ -106,7 +107,7 @@ ul nav{
     background: url(../images/hero-image.jpg);
     margin-top: -40px;
     background-size: auto;
-
+    
 }
 
 .titre {
@@ -162,29 +163,29 @@ ul nav{
 }
 
 @media (max-width:991px) {
-
+     
     #home {
         height: 60vh;
         background: url(../images/hero-image.jpg);
         margin-top: -40px;
         background-size: cover;
-
+        
     }
-
+    
     .titre h2 {
         text-align: center;
         color: white;
         font-size: 0.5em;
     }
-
+    
     .soustitre {
         text-align: center;
         font-size: 0.5em;
         color: white;
-
+    
     }
 
-
+    
     .myButton {
         box-shadow:inset 0px 0px 0px -24px #f74C3C;
         border-radius:5px;
@@ -195,7 +196,7 @@ ul nav{
         margin: auto 0;
         margin-bottom: 20px;
     }
-
+  
     .myButton:active {
         position:relative;
         top:1px;
@@ -205,7 +206,7 @@ ul nav{
         height: 50px;
         width: auto;
     }
-
+    
 
 }
 
@@ -238,12 +239,12 @@ hr {
 }
 
 @media (max-width:991px) {
-
+     
     #who {
         min-height: 30vh;
         width: 100%;
     }
-
+    
     .p2logo {
         text-align: center;
         color: #f74C3C;
@@ -258,13 +259,14 @@ hr {
         font-size: 1em;
         margin-top : -30px;
     }
-
+    
     .p2texte {
         text-align: center;
         font-size: 0.8em
     }
 
 }
+
 
 /***************/
 /*GET-INVOLVED*/
@@ -280,6 +282,9 @@ hr {
     color: #f74C3C;
 }
 
+.colonne {
+    margin-bottom: 20px;
+}
 
 #colonne1 {
 	float: left;
@@ -324,23 +329,23 @@ hr {
 }
 
 @media (max-width:991px) {
-
-
+     
+    
     #get-involved {
         min-height: 100vh;
     }
     .p3titre h2{
         font-size: 1em;
     }
-
+    
     .fa-user {
         width: 18%;
     }
-
+    
     .fa-money-bill-alt {
         width: 18%;
     }
-
+    
     #get-involved a {
         border-width: 1px;
         border-radius: 8%;
@@ -372,7 +377,77 @@ hr {
 
 }
 
+@media (max-width:767px) {
+     
+    
+    #get-involved {
+        min-height: 100vh;
+    }
+    .p3titre h2{
+        font-size: 0.8em;
+    }
+    .colonne {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        margin: auto;
+        text-align: center;
+        margin-bottom: 5em;
+    }
+    .fa-user {
+        width: 18%;
+    }
+    
+    .fa-money-bill-alt {
+        width: 18%;
+    }
+    
+    #get-involved a {
+        border-width: 1px;
+        border-radius: 8%;
+        border-style: solid;
+        border-color: rgba(0, 0, 0, 0.692);
+        text-decoration: none;
+        padding: 5px;
+    }
 
+    #get-involved p {
+        font-size: 0.7em;
+    }
+
+    .fa-pencil-alt {
+        border-radius: 50%;
+        border-color: black;
+        background: rgba(0, 0, 0, 0.76);
+        width: 1.7em;
+        color: white;
+        padding-top: 0.30em;
+        padding-bottom: 0.30em;
+    }
+    #colonne1 {
+        flex: 1;
+        min-width: 25em;
+        margin: auto;
+        margin-bottom: 2em;
+        
+    }
+    #colonne2 {
+        flex: 1;
+        min-width: 25em;
+        margin: auto;
+        margin-bottom: 2em;
+    }
+
+    #center {
+        flex: 1;
+        min-width: 25em;
+        margin: auto;
+        margin-bottom: 2em;
+    }
+    
+
+}
 /***************/
 /*** FOOTER ****/
 /***************/
@@ -388,12 +463,12 @@ hr {
     margin-left: 250px;
 }
 
-@media (max-width:991px) {
+@media (max-width:991px) { 
     .footer {
         height: 25vh;
         background-color: #f74C3C
     }
-
+    
     .footer img {
         float: left;
         margin-top: 30px;
@@ -421,3 +496,4 @@ hr {
     text-decoration: none;
     color: #333;
 }
+
